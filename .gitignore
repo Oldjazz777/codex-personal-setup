@@ -1,0 +1,13 @@
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Never version credentials or local environment files
+.env
+.env.*
+!.env.example
+keys.json
+credentials.json
+*.pem
+*.key
